@@ -8,26 +8,26 @@ Người gắn nhãn 1 (Thành viên 3): ... · Người gắn nhãn 2 (Thành v
 
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- |
-| 1 | ... | ... | ... | ... |
-| 2 | ... | ... | ... | ... |
-| 3 | ... | ... | ... | ... |
-| 4 | ... | ... | ... | ... |
-| 5 | ... | ... | ... | ... |
-| 6 | ... | ... | ... | ... |
-| 7 | ... | ... | ... | ... |
-| 8 | ... | ... | ... | ... |
-| 9 | ... | ... | ... | ... |
-| 10 | ... | ... | ... | ... |
-| 11 | ... | ... | ... | ... |
-| 12 | ... | ... | ... | ... |
-| 13 | ... | ... | ... | ... |
-| 14 | ... | ... | ... | ... |
-| 15 | ... | ... | ... | ... |
-| 16 | ... | ... | ... | ... |
-| 17 | ... | ... | ... | ... |
-| 18 | ... | ... | ... | ... |
-| 19 | ... | ... | ... | ... |
-| 20 | ... | ... | ... | ... |
+| 1 | Thiếu kiểm tra đầu vào / thao tác không đảo ngược được | ... | ... | ... |
+| 2 | Gọi tool sai tham số | ... | ... | ... |
+| 3 | Thiết kế sản phẩm / truyền thông kém | ... | ... | ... |
+| 4 | Trợ lý xử lý đúng, chuyển người hợp lý | ... | ... | ... |
+| 5 | Lỗi logic nghiệp vụ (tính sai tiền) | ... | ... | ... |
+| 6 | Hiểu sai ý định / không có đường thoát | ... | ... | ... |
+| 7 | Báo thành công giả hoặc bịa căn cứ | ... | ... | ... |
+| 8 | Báo thành công giả hoặc bịa căn cứ | ... | ... | ... |
+| 9 | Hiểu sai ý định / không có đường thoát | ... | ... | ... |
+| 10 | Thiết kế sản phẩm / truyền thông kém | ... | ... | ... |
+| 11 | Ngoài khả năng kênh (giọng nói) | ... | ... | ... |
+| 12 | Dữ liệu cũ, lỗi âm thầm | ... | ... | ... |
+| 13 | Hiểu sai ý định / không có đường thoát | ... | ... | ... |
+| 14 | Thiếu kiểm tra đầu vào / thao tác không đảo ngược được | ... | ... | ... |
+| 15 | Lỗi logic nghiệp vụ (tính sai tiền) | ... | ... | ... |
+| 16 | Thiết kế sản phẩm / truyền thông kém | ... | ... | ... |
+| 17 | Dữ liệu cũ, lỗi âm thầm | ... | ... | ... |
+| 18 | Thiết kế sản phẩm / truyền thông kém | ... | ... | ... |
+| 19 | Trợ lý xử lý đúng, chuyển người hợp lý | ... | ... | ... |
+| 20 | Thiếu cơ chế chống trùng | ... | ... | ... |
 
 **Tỉ lệ đồng thuận:** ... / 20 = ...%
 
