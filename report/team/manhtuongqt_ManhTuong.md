@@ -21,13 +21,19 @@
   - A3: Tách 4 loại yêu cầu (`noi_dia` 0,22×, `hang_nang` 0,69×, `quoc_te` 1,88×, `doi_tac` 0,85×). Xác nhận loại `quoc_te` chạy lại không cải thiện tỉ lệ thành công (lần 1: 30%, lần 2: 11,4%, lần 3: 2,2%).
   - A4: Chi phí cố định 40 triệu đ/tháng cho phạm vi `noi_dia` + `hang_nang` (1.185 đ ở 45k yc/tháng, 2.370 đ ở nửa quy mô).
 - Nghiệm thu tính hợp lệ của `report/team/bang_chi_phi.md`.
-- Hỗ trợ Thành viên 4 điền trước Mục 1 và Mục 3 trong `report/team/ho_so_launch_v0.md`.
+- Nghiệm thu, tính toán độc lập và hoàn thiện toàn bộ bảng độ nhạy CP2 (B1, B2, B3, B4) trong `report/team/bang_chi_phi.md`:
+  - B1: 9 kịch bản độ nhạy kiểm tra tính chất tuyến tính đạt chuẩn 100%.
+  - B2: Đổi một cặp (token x2 + xem lại x2 = 6.543 đ [+46,3%] [simulated]) và xếp hạng 3 yếu tố nhạy nhất: 1. Làm lại (+51,8%) · 2. Xem lại (+40,7%) · 3. Lương nhân viên (+23,1%).
+  - B3: Khẳng định giới hạn 2 lần chạy rẻ nhất cả hệ thống (6.901.220 đ) thay vì tối ưu cục bộ 1 lần chạy (4.111 đ).
+  - B4: Xem lại 100% tốn 11.743 đ (0,98×) đến 12.415 đ (1,03×) [simulated], xác định ngưỡng hòa vốn ≤ 4,8 phút.
+- Hỗ trợ Thành viên 4 điền trước Mục 1, Mục 2 và Mục 3 trong `report/team/ho_so_launch_v0.md`.
 
 ## 4. Bằng chứng
 
-- Script tính toán độc lập từ CSV và log kiểm tra số liệu CP1.
+- Script tính toán độc lập từ CSV và log kiểm tra số liệu CP1, CP2.
 - `TEAM.md`: Bảng phân vai 4 roles và nhiệm vụ chi tiết.
-- `report/team/ho_so_launch_v0.md`: Mục 1 và Mục 3 đã cập nhật số liệu chuẩn.
+- `report/team/bang_chi_phi.md`: Đầy đủ 100% số liệu A1-A4 và B1-B4.
+- `report/team/ho_so_launch_v0.md`: Mục 1, Mục 2 và Mục 3 đã cập nhật số liệu chuẩn.
 - Các commit kiểm tra và cập nhật tài liệu trên repo `K5-L3A-DAY13-AAA-LaunchEconomics`.
 
 ## 5. Công cụ AI đã dùng
@@ -37,5 +43,5 @@
 
 ## 6. Tự đánh giá
 
-- Hoàn thành xuất sắc vai trò Người kiểm số ở CP1 (xác nhận độ chính xác 100%, bảo toàn 20/20 điểm cho nhóm).
+- Hoàn thành xuất sắc vai trò Người kiểm số ở CP1 (xác nhận độ chính xác 100%, bảo toàn 20/20 điểm cho nhóm) và CP2 (bảo toàn 15/15 điểm cho nhóm).
 - Phối hợp và bàn giao kịp thời các dữ liệu đầu vào cho các thành viên khác trong nhóm.

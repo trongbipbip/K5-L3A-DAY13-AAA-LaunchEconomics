@@ -7,7 +7,7 @@ Nhóm: AAA · Lớp: L3A
 | Mục | Con số chính | Trạng thái | Người phụ trách |
 | --- | --- | --- | --- |
 | 1 · Chi phí mỗi việc thành công | 4.472 đ (gấp 16,3 lần hóa đơn token 274,7 đ) | Giả lập | PM trợ lý hoàn phí |
-| 2 · Ba yếu tố nhạy nhất | ... | ... | ... |
+| 2 · Ba yếu tố nhạy nhất | 1. Làm lại (+51,8%) · 2. Xem lại (+40,7%) · 3. Lương (+23,1%) | Giả lập | PM trợ lý hoàn phí |
 | 3 · So với nhân viên tự làm | 0,49× cả hệ thống (5.865 đ); 0,38× (4.599 đ) có cố định ở 45k yc/tháng | Giả lập | Giám đốc vận hành |
 | 4 · Chỉ số chính, chỉ số dùng, chỉ số an toàn | ... | ... | ... |
 | 5 · Bảng lỗi và cách khắc phục | ... | ... | ... |
