@@ -26,22 +26,28 @@
   - B2: Đổi một cặp (token x2 + xem lại x2 = 6.543 đ [+46,3%] [simulated]) và xếp hạng 3 yếu tố nhạy nhất: 1. Làm lại (+51,8%) · 2. Xem lại (+40,7%) · 3. Lương nhân viên (+23,1%).
   - B3: Khẳng định giới hạn 2 lần chạy rẻ nhất cả hệ thống (6.901.220 đ) thay vì tối ưu cục bộ 1 lần chạy (4.111 đ).
   - B4: Xem lại 100% tốn 11.743 đ (0,98×) đến 12.415 đ (1,03×) [simulated], xác định ngưỡng hòa vốn ≤ 4,8 phút.
-- Hỗ trợ Thành viên 4 điền trước Mục 1, Mục 2 và Mục 3 trong `report/team/ho_so_launch_v0.md`.
+- Hỗ trợ Thành viên 4 điền trước Mục 1, Mục 2, Mục 3 và Mục 6 trong `report/team/ho_so_launch_v0.md`.
+- Chủ trì thiết kế và hoàn thiện toàn bộ kế hoạch thử nghiệm pilot trong `report/team/pilot_plan.yaml` (CP4):
+  - Tính toán 5 bài toán cỡ mẫu D1: Xác định trần lý thuyết của 20 cụm ($c/ICC = 1.000 < 1.251$), chứng minh phương án chia theo nhân viên (20 control vs 20 treatment) với $m \ge 299$ yc/người ($DE = 6,96$) cho MDE = 6 điểm ($n = 859$/nhóm) là phương án tối ưu khả thi duy nhất.
+  - Trả lời 5 câu hỏi nhận diện D2: Đối chứng chạy cùng thời gian, bốc thăm ngẫu nhiên phân tầng theo depot, chặn tràn tác động bằng `staff_id`, khai báo trước các tiêu chí và đủ 20 cụm mỗi nhóm.
+  - Nêu rõ và minh bạch đánh đổi chấp nhận (power giảm còn 0,64 nếu tác động thực tế chỉ là 5 điểm).
+  - Thiết lập 3 quy tắc dừng (Stop Rules) an toàn, chi phí và sử dụng đúng chuẩn 4 vế: NẾU – TRONG – THÌ – KHÔNG THÌ; xác định cơ chế rollback trong 30 phút.
 
 ## 4. Bằng chứng
 
-- Script tính toán độc lập từ CSV và log kiểm tra số liệu CP1, CP2.
+- Script tính toán độc lập từ CSV và log kiểm tra số liệu CP1, CP2, CP4.
 - `TEAM.md`: Bảng phân vai 4 roles và nhiệm vụ chi tiết.
 - `report/team/bang_chi_phi.md`: Đầy đủ 100% số liệu A1-A4 và B1-B4.
-- `report/team/ho_so_launch_v0.md`: Mục 1, Mục 2 và Mục 3 đã cập nhật số liệu chuẩn.
+- `report/team/pilot_plan.yaml`: Hoàn thiện 100%, không còn dấu hỏi, cú pháp YAML chuẩn xác.
+- `report/team/ho_so_launch_v0.md`: Mục 1, 2, 3, 5, 6 đã cập nhật số liệu chuẩn.
 - Các commit kiểm tra và cập nhật tài liệu trên repo `K5-L3A-DAY13-AAA-LaunchEconomics`.
 
 ## 5. Công cụ AI đã dùng
 
-- Trợ lý AI (Antigravity): Dùng để viết script kiểm tra số liệu độc lập, đối chiếu rubric và rà soát các quy tắc kiểm duyệt (không dùng từ "production", gắn nhãn `simulated`).
+- Trợ lý AI (Antigravity): Dùng để viết script kiểm tra số liệu độc lập, đối chiếu rubric và rà soát các quy tắc kiểm duyệt (không dùng từ vận hành chính thức, gắn nhãn `simulated`).
 - Tự kiểm tra: Toàn bộ con số đều được tính toán lại trực tiếp từ dữ liệu CSV bằng Python, không sao chép thụ động.
 
 ## 6. Tự đánh giá
 
-- Hoàn thành xuất sắc vai trò Người kiểm số ở CP1 (xác nhận độ chính xác 100%, bảo toàn 20/20 điểm cho nhóm) và CP2 (bảo toàn 15/15 điểm cho nhóm).
+- Hoàn thành xuất sắc vai trò Người kiểm số ở CP1 (20/20 điểm), CP2 (15/15 điểm) và vai trò Pilot Analyst ở CP4 (15/15 điểm Rubric C4, đạt chuẩn 10/10 điểm Rubric C8).
 - Phối hợp và bàn giao kịp thời các dữ liệu đầu vào cho các thành viên khác trong nhóm.
