@@ -1,9 +1,9 @@
-# Báo cáo cá nhân — ManhTuong-manhtuongqt
+# Báo cáo cá nhân — 2A202603646 Nguyễn Mạnh Tường
 
 ## 1. Thông tin thành viên
 
-- Họ tên: Mạnh Tường
-- MSSV: (Cập nhật MSSV)
+- Họ tên: Nguyễn Mạnh Tường
+- MSSV: 2A202603646
 - Email: manhtuongqt@users.noreply.github.com
 - Vai trong nhóm: Người kiểm số / Pilot Analyst (Thành viên 2)
 
