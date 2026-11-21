@@ -11,10 +11,10 @@
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 | Hải Tuấn | | vuhaituan100903@gmail.com | ha1tuan | Người viết code / Economics Engineer |
+|   1 | Hải Tuấn |2A202603689 | vuhaituan100903@gmail.com | ha1tuan | Người viết code / Economics Engineer |
 |   2 | Nguyễn Mạnh Tường | 2A202603646 | manhtuongqt@users.noreply.github.com | manhtuongqt | Người kiểm số / Pilot Analyst |
-|   3 | Thành viên 3 | | | | Người gắn nhãn lỗi 1 / Error Analyst |
-|   4 | Nguyễn Nho Trọng | | | trongbipbip | Người gắn nhãn lỗi 2 kiêm giữ hồ sơ / Launch Owner |
+|   3 | Phan Văn Diện |2A202603653 | |phanvandien | Người gắn nhãn lỗi 1 / Error Analyst |
+|   4 | Nguyễn Nho Trọng |2A202603666 | | trongbipbip | Người gắn nhãn lỗi 2 kiêm giữ hồ sơ / Launch Owner |
 
 Bốn vai của lab:
 
