@@ -43,8 +43,8 @@ Cách phát hiện phải đo được (event, ngưỡng, tần suất). Ngườ
 
 | Ca | Loại lỗi | Phát hiện bằng gì | Khắc phục thế nào | Ai phụ trách |
 | --: | --- | --- | --- | --- |
-| 9 | Do người dùng | Event `input_validation_failed`; cảnh báo khi vượt 2% số yêu cầu/ngày | Nhận diện mã sàn thương mại điện tử và hướng dẫn nhập mã vận đơn; không tra được thì chuyển nhân viên | PM trợ lý hoàn phí |
-| 7 | Hệ thống | Đối soát mỗi giờ: thông báo “đã hoàn” phải có bản ghi sổ cái `ok` cùng `trace_id`; ngưỡng 0 ca lệch | Chỉ báo thành công sau khi sổ cái trả `ok`; lỗi sau 3 lần thì báo đang xử lý và chuyển nhân viên | Kỹ sư trưởng agent |
-| 18 | Ngữ cảnh | Theo dõi tỉ lệ mở lại do thắc mắc số tiền theo tuần | Hiển thị công thức tính tiền trong thông báo, ví dụ `30.000 đ × 50% = 15.000 đ` | Trưởng nhóm CSKH |
-| 4 | Giới hạn hệ thống | Đếm event `handoff_to_staff` với `reason=thieu_du_lieu` theo loại yêu cầu | Giữ handoff kèm tóm tắt; đưa loại ngoài phạm vi ra khỏi pilot | PM trợ lý hoàn phí |
-| 17 | Ngầm | Kiểm tra mẫu 100 đơn mỗi tuần với bảng giá hiện hành; cảnh báo khi lệch trên 1% | Xóa cache khi bảng giá đổi và ghi phiên bản bảng giá vào `trace` | Kế toán trưởng |
+| ... | Do người dùng | ... | ... | ... |
+| ... | Hệ thống | ... | ... | ... |
+| ... | Ngữ cảnh | ... | ... | ... |
+| ... | Giới hạn hệ thống | ... | ... | ... |
+| ... | Ngầm | ... | ... | ... |
