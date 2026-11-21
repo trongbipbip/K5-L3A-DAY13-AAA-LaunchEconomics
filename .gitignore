@@ -11,3 +11,7 @@ venv/
 example.zip
 example/
 __MACOSX/
+
+# Tài liệu hướng dẫn nội bộ, không đưa vào bài nộp
+report/team/huong_dan_vai_tro_debate.html
+report/team/huong_dan_vai_tro_debate.pdf
